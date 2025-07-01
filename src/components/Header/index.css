@@ -1,0 +1,30 @@
+.hero {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #61dafb;
+  padding: 10px 20px;
+  color: #000;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline-block;
+}
