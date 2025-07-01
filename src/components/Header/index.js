@@ -6,7 +6,7 @@ const Header = () => {
     <header className="hero">
       <div className="hero-content">
         <img
-          src="/subin.jpg"
+          src={`${process.env.PUBLIC_URL}/subin.jpg`}
           alt="Subin"
           className="profile-img"
         />
